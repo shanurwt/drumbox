@@ -1,9 +1,15 @@
 import {useState} from 'react'
+import * as Tone from 'tone'
 import './App.css';
 
 function App() {
-  const [screen, setscreen] = useState("press any button");
+  const [screen, setScreen] = useState("press any button");
 
+  const synth = new Tone.Synth().toDestination();
+  function playnote(note){
+    synth.triggerAttackRelease(`${note}4`,'8n');
+    setScreen(note)
+  }
 
   return (
     <div className="App">
@@ -13,19 +19,19 @@ function App() {
         </div>
         <div className="btns">
           <div className="first">
-            <button className="one">A</button>
-            <button className="two">S</button>
-            <button className="three">D</button>
+            <button className="one" onClick={()=> playnote("C")}>C</button>
+            <button className="two" onClick={()=> playnote("E")}>E</button>
+            <button className="three" onClick={()=> playnote("D")}>D</button>
           </div>
           <div className="sec">
-            <button className="four">F</button>
-            <button className="five">G</button>
-            <button className="six">H</button>
+            <button className="four" onClick={()=> playnote("A")}>A</button>
+            <button className="five" onClick={()=> playnote("G")}>G</button>
+            <button className="six" onClick={()=> playnote("B")}>B</button>
           </div>
           <div className="third">
-            <button className="seven">J</button>
-            <button className="eight">K</button>
-            <button className="nine">L</button>
+            <button className="seven" onClick={()=> playnote("F")}>F</button>
+            <button className="eight" onClick={()=> playnote("E")}>E</button>
+            <button className="nine" onClick={()=> playnote("C")}>C</button>
           </div>
         </div>
       </div>
