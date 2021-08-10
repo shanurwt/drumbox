@@ -1,12 +1,25 @@
 @media screen and (max-width: 320px){
-  .App{
+  .container{
+    background-color:aquamarine;
+  }
+  .logo{
+  display: flex;
+  }
+  .limg{
+    margin-top: 60px;
+    margin-left: 100px;
+    width:130px;
+    height:20vh;
+  }
+
+  .btnbox{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color:aquamarine;
+    height: 70vh;
+
   }
-  .container{
+  .btns{
     background-color: antiquewhite;
     width: 100%;
   }
@@ -19,4 +32,7 @@
     height: 70px;
     width: 70px;
   }
+  
+
+
 }

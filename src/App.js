@@ -1,6 +1,6 @@
 import * as Tone from 'tone'
 import './App.css';
-
+import ps from './Assets/img/music.png'
 export default function App() {
   const synth = new Tone.Synth().toDestination();
   function playnote(note){
@@ -10,6 +10,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <div className="logo">
+          <img className='limg' src={ps} alt="" />
+        </div>
+        <div className="btnbox">
         <div className="btns">
           <div className="first">
             <button className="one" onClick={()=> playnote("C")}>C</button>
@@ -27,6 +31,7 @@ export default function App() {
             <button className="nine" onClick={()=> playnote("C")}>C</button>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
