@@ -49,3 +49,58 @@
   }
 
 }
+
+@media screen and (max-width: 426px){
+
+  .container{
+    background-image: linear-gradient(to top, #dbf7cd, #ffce97);
+  }
+  .logo{
+  display: flex;
+  }
+  .limg{
+    margin-top: 60px;
+    margin-left: 140px;
+    width:130px;
+    height:20vh;
+  }
+
+  .btnbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 71vh;
+
+  }
+  .btns{
+    background-image: linear-gradient(to top, #dbf7cd, #9496f3);
+    width: 100%;
+    margin-top: 60px;
+  }
+  .first, .sec, .third{
+    margin: 25px;
+  }
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 90px;
+    width: 80px;
+  }
+  button{
+    background-color: #03719C;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 15px;
+  }
+
+  button:hover {background-color: #0a8bbe}
+
+  button:active {
+    background-color: #0a8bbe;
+    box-shadow: 0 5px #D8DCD6;
+    transform: translateY(4px);
+  }
+
+}
+
