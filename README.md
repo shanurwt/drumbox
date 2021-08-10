@@ -5,7 +5,7 @@
 
 ### This App is just a collection of buttons with onclick functions specifying a beat(or note) of drum.  
 ### You can check this site [here.](https://drumsbox.netlify.app/)
-![](./src/assets/img/ss.png)
+![](./src/Assets/img/ss.png)
 
 # To Run the code on your system: 
 
