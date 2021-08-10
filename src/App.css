@@ -1,6 +1,6 @@
 @media screen and (max-width: 320px){
   .container{
-    background-color:aquamarine;
+    background-image: linear-gradient(to top, #dbf7cd, #ffce97);
   }
   .logo{
   display: flex;
@@ -16,11 +16,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 71vh;
 
   }
   .btns{
-    background-color: antiquewhite;
+    background-image: linear-gradient(to top, #dbf7cd, #9496f3);
     width: 100%;
   }
   .first, .sec, .third{
@@ -32,7 +32,20 @@
     height: 70px;
     width: 70px;
   }
-  
+  button{
+    background-color: #03719C;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 15px;
+  }
 
+  button:hover {background-color: #0a8bbe}
+
+  button:active {
+    background-color: #0a8bbe;
+    box-shadow: 0 5px #D8DCD6;
+    transform: translateY(4px);
+  }
 
 }
