@@ -1,22 +1,15 @@
-import {useState} from 'react'
 import * as Tone from 'tone'
 import './App.css';
 
-function App() {
-  const [screen, setScreen] = useState("press any button");
-
+export default function App() {
   const synth = new Tone.Synth().toDestination();
   function playnote(note){
     synth.triggerAttackRelease(`${note}4`,'8n');
-    setScreen(note)
   }
 
   return (
     <div className="App">
       <div className="container">
-        <div className="screen">
-          <h1>{screen}</h1>
-        </div>
         <div className="btns">
           <div className="first">
             <button className="one" onClick={()=> playnote("C")}>C</button>
@@ -38,5 +31,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
