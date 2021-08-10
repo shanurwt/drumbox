@@ -4,6 +4,7 @@
 -------------------------------------------------------------------
 
 ### This App is just a collection of buttons with onclick functions specifying a beat(or note) of drum.  
+### It is RESPONSIVE(because clicking these buttons on mobile will be more FUN.)
 ### You can check this site [here.](https://drumsbox.netlify.app/)
 ![](./src/Assets/img/ss.png)
 
