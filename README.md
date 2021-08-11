@@ -7,7 +7,7 @@
 ### It is RESPONSIVE(because clicking these buttons on mobile will be more FUN.)
 ### You can check this site [here.](https://drumsbox.netlify.app/)
 -------------------------------------------------------------------------
-### Here is a preview :star: :star:
+### :star: :star: Here is a preview :star: :star:
 
 ![](./src/Assets/img/ss.png)
 
