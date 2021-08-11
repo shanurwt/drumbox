@@ -1,6 +1,6 @@
 # DrumBox  
 ## A virtual drumbox for noobies.
-**The Drumbox is made with React.js and Tone.js. Tone.js is a Web Audio framework for creating interactive music in the browser.**  
+### The Drumbox is made with React.js and Tone.js. Tone.js is a Web Audio framework for creating interactive music in the browser.
 -------------------------------------------------------------------
 
 ### This App is just a collection of buttons with onclick functions specifying a beat(or note) of drum.  
